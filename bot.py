@@ -23,7 +23,7 @@ except:
 tr=TorRequest(password=None)
 
 headers = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0"}
-a = str(input("URL    - "))
+a = input("URL    - ")
 x = int(input("Amount - "))
 
 def run():
