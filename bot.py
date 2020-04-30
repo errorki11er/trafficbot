@@ -12,8 +12,9 @@ ____________________________________________________________
 ____________________________________________________________
 """
 import urllib
-print(name)
 os.system('clear')
+print(name)
+
 try:
 	from torrequest import TorRequest
 except:
